@@ -1,7 +1,4 @@
 ---
-@import "my-style.less"
-@import "md_plugin.js"
-
 title: "Journal"
 output:
   html_document:

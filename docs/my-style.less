@@ -1,0 +1,72 @@
+:root {
+    --main-background:  #1c1f2b; 
+    --main-text-color:  #bdcadb; 
+
+    --h-color:          #bdcaeC;    
+    --strong-color:     #f8f8f8; 
+    --a-color:          #3eb1d0;    
+
+    --hr-background:    #2d3143;
+
+    --pre-background:   #0000004a;  
+    --pre-color:        #70ff00;
+    --btn_color:        #3eb1d0;
+    --btn_color-hover:  #e2e2e2;
+}
+  
+.markdown-preview {
+    background-color: var(--main-background);
+    color: var(--main-text-color);
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--h-color);
+        text-align: center;
+    }
+    strong {
+        color: var(--strong-color);
+    }
+    hr { 
+        background-color: var(--hr-background);
+    }
+    code, pre {
+        background-color: var(--pre-background);
+        color: var(--pre-color);
+    }
+    pre {
+        font-size: 1.0em !important;
+    }
+    a {
+        color: var(--a-color);
+    }
+    th {
+        color: var(--h-color);
+    }
+    summary {
+        color: yellow;
+        background-color: darkslateblue;
+        padding: 5px;
+        font-style: italic;
+        border-radius: 4px;
+        margin: 2px;
+    }
+}
+
+.md-sidebar-toc {
+    
+    background-color: var(--main-background);
+    color: var(--a-color);
+    code, pre {
+        background-color: var(--pre-background);
+        color: var(--pre-color);
+    }
+    a {
+        color: var(--a-color);
+    }
+
+}
+
+#sidebar-toc-btn {
+    color: var(--btn_color);
+    a:hover {
+        color: var(--btn-color-hover);
+    }
+}
